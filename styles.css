@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d0f8e6;
+}
+
+.add-menu {
+    padding: 4vmin;
+    border-radius: 1vmin;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    background-color: white;
+}
+
+.add-menu button, .add-menu input {
+    padding: 1vmin;
+}
+
+.container {
+    padding: 5vmin;
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    gap: 2vmin;
+}
+
+.chips {
+    display: flex;
+    padding: 1vmin;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 30%;
+    height: 4vmin;
+    border-radius: 999vmin;
+    background-color: white;
+}
+
+.chips img {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    border-radius: 50%;
+    object-fit: cover;
+    left: -1vmin;
+}
+
+.chips button {
+    position: absolute;
+    right: 1vmin;
+    padding: 1vmin;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 3vmin;
+    height: 3vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: gray;
+}
